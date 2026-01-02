@@ -1,0 +1,21 @@
+# Practical Analysis of Sorting Algorithms (Academic Project)
+
+This repository contains a small collaborative academic project focused on analyzing the *practical* time complexity of classical sorting algorithms. The goal is to compare theoretical expectations with empirical performance using systematic experimentation across different input sizes.
+
+## What this project demonstrates
+- Algorithmic reasoning and complexity awareness
+- Empirical evaluation (benchmarking) using consistent methodology
+- The difference between theoretical behavior and practical performance (constants, implementation details)
+
+## Algorithms included
+- Bubble Sort
+- Insertion Sort
+- Merge Sort
+- (Python built-in `sorted`) as a reference baseline
+
+## How to run
+Requirements: Python 3.9+ (standard library only)
+
+From the project root:
+```bash
+python -m src.benchmark
