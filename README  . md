@@ -18,4 +18,18 @@ Requirements: Python 3.9+ (standard library only)
 
 From the project root:
 ```bash
-python -m src.benchmark
+python -m src.benchmark## Output Format
+
+Running the benchmark prints a CSV-like table to the terminal with the following columns:
+
+- `algorithm`: name of the sorting algorithm  
+- `n`: input size  
+- `avg_ms`: average runtime in milliseconds  
+
+## Notes
+
+- This is an educational benchmark. Results may vary depending on the machine and background processes.
+- The goal is not absolute speed, but observing scaling behavior as input size increases.
+
+## Author
+Zakaria Draifi
