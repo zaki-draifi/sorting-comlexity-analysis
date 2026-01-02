@@ -18,6 +18,7 @@ Requirements: Python 3.9+ (standard library only)
 
 From the project root:
 ```bash
+
 python -m src.benchmark## Output Format
 
 Running the benchmark prints a CSV-like table to the terminal with the following columns:
